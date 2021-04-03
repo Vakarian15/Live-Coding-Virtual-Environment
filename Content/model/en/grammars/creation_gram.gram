@@ -17,14 +17,15 @@ public <final_rule> =   (new [ <colors> ] <meshBasedObjects>) |
 						(new <rayMarchingToken> [ <colors> ] <rayMarchingObjects>) | 
 						(create <operations>) |
 						(new area fog) |
-						(new (small | big) flocking [ for <number> ] );
+						(new (small | big) flocking [ for <number> ] ) |
+						 new fractal;
 
 
 
 
 <colors> = ( red | blue | white | black | yellow | green | purple | orange );
 
-<meshBasedObjects> = ( cube | sphere | pillar );
+<meshBasedObjects> = ( cube | sphere | pillar | elephant | snowman | pig | rhino | snake | lion | koala );
 
 <rayMarchingToken> = (ray marching);
 
